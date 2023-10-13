@@ -1,0 +1,42 @@
+Bahasa Pemrograman yang digunakan: PHP
+Database yang digunakan: MySQL
+
+Cara Instalasi:
+1. Download dan Install local web server seperti XAMPP.
+2. Buka XAMPP Control Panel dan start Apache serta MySQL.
+3. Extract source code zip file.
+4. Copy source code folder yang sudah diextract dan paste ke folder XAMPP "htdocs".
+5. Buka halaman PHPMyAdmin di browser. ("http://localhost/phpmyadmin")
+6. Buat database baru dengan nama eas_db.
+7. Import file SQL yang disediakan pada folder ci_eas->database->eas_db.sql. 
+8. Buka Aplikasi Employee Attendance System di browser. ("http://localhost/ci_eas/")
+
+User Guide:
+1.Setelah masuk ke halaman login terdapat 2 opsi login sebagai admin atau login sebagai employee.
+
+Login Admin:
+2.Apabila ingin memasukkan employee baru bisa dengan login dengan admin terlebih dahulu.
+
+3.Akun Admin default:
+Username: admin
+Password: admin123
+Apabila ingin langsung login sebagai employee bisa login dengan akun yang sudah ada:
+Username: HRD032
+Password: joana123 (Apabila login dengan akun ini abaikan tahap 4-12).
+
+4.Setelah masuk ke menu utama admin masuk ke menu Employee.
+5.Pilih Add New Employee.
+6.Isi data Employee.
+7.Lalu save.
+8.Masuk ke menu Users.
+9.Klik Create Account pada kolom username dari employee yang telah dimasukkan.
+10.Isi Password employee.
+11.Lalu save. Maka akun employee telah aktif dan dapat login dengan username serta password yang sudah dibuat.
+12.Silahkan Logout dengan klik profil admin lalu pilih logout. 
+
+Login Employee:
+13.Setelah masuk halaman utama Employee, pilih menu Attendance Form untuk absen.
+14.Isi data Attendance, lalu pilih Time In.
+15.Jangan tekan Time Out sebelum employee sudah saatnya pulang.
+16.Apabila Employee sudah saatnya pulang bisa klik Time Out.
+17.Untuk melihat riwayat attendance bisa pilih menu history, lalu tentukan kapan waktu yang ingin dilihat. 
