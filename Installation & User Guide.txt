@@ -5,7 +5,7 @@ Cara Instalasi:
 1. Download dan Install local web server seperti XAMPP.
 2. Buka XAMPP Control Panel dan start Apache serta MySQL.
 3. Extract source code zip file.
-4. Copy source code folder yang sudah diextract dan paste ke folder XAMPP "htdocs".
+4. Copy source code yang sudah diextract dan paste ke folder XAMPP "htdocs/ci_eas" (Agar tidak perlu konfigurasi ulang localhostnya).
 5. Buka halaman PHPMyAdmin di browser. ("http://localhost/phpmyadmin")
 6. Buat database baru dengan nama eas_db.
 7. Import file SQL yang disediakan pada folder ci_eas->database->eas_db.sql. 
